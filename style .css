@@ -1,0 +1,58 @@
+ html {
+    background-color: grey;
+    background: url(images.jpg)
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+img {
+    width: 200px;
+
+}
+div {
+
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+caption {
+    padding-bottom: 5px;
+}
+th {
+    border: 2px solid black;
+    padding: 5px;
+}
+tr {
+    text-align: center;
+    border-right: 5px solid black
+    
+    
+}
+td { 
+    padding: 5px;
+    border: 2px solid black;
+}
+h1 {
+
+    font-family: Marker Felt, fantasy;
+    font-size: 50px;
+}
+h3 {
+    padding-left: 220px;
+    padding-top: 13px;
+}
+.info{
+    float: left;
+}
+.skills {
+    margin-top: 230px;
+}
+span{
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
