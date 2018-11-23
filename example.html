@@ -9,26 +9,27 @@
     <header>   
             <h1>Вакансия: Junior Front-end Developer</h1>
             <div  >
-                <div class="info">
+                <div class="photo">
                     <img src="Photo.jpg"></div> 
-                <h3><span>Имя: Шеремеев Андрей Вячеславович</span> <br>
+                <h3 class="info"><span>Имя: Шеремеев Андрей Вячеславович</span> <br>
                     <a href="https://github.com/Andrew-Sher/LevelUpJunFe.git">Ссылка на репозиторий в GitHub</a><br>
                 <span>Опыт работы: нет</span></h3>           
             </div>
     </header>
     <div class="skills">
+        <form action="...">
     <div>
-            <form action="..."><label for="intDate">Дата собеседования:</label> 
+            <label for="intDate">Дата собеседования:</label> 
                 <input type="date" id="intDate" name="interviewDate" value="2018-11-17" min="2018-11-17" max="2025-01-01">
-            </form>     
+                 
     </div>
-    <form action="...">
+ 
         <p>Уровень английского:</p>
-        <input type="radio" name="levelEng" value="bad"> Плохо 
-        <input type="radio" name="levelEng" value="middle"> Средне
-        <input type="radio" name="levelEng" value="good"> Хорошо 
-        <input type="radio" name="levelEng" value="perfect"> Превосходно
-    </form>
+        <input type="radio" name="levelEng" value="bad" id="bad"> <label for="bad">Плохо</label> 
+        <input type="radio" name="levelEng" value="middle" id="middle"> <label for="middle">Средне</label>
+        <input type="radio" name="levelEng" value="good" id="good"> <label for="good">Хорошо </label>
+        <input type="radio" name="levelEng" value="perfect" id="perfect"> <label for="perfect">Превосходно</label>
+    
     <div>
         <ul type="square">Ключевые навыки
             <li>HTML</li>
@@ -38,13 +39,13 @@
         </ul>
     </div>
     <div>
-        <form action="...">
+        
             <input type="text" name="skill" placeholder="введите навык..." > 
             <input type="submit" value="Добавить в список">
-        </form>
+        
     </div>
     <div>
-        <form action="...">
+        
             Коммуникабельность: <select>
                 <option>Доминантный</option>
                 <option>Мобильный</option>
@@ -52,21 +53,21 @@
                 <option> Интровертный</option>
                 <option>Не пришел на собеседование</option>
             </select>
-        </form>
+        
     </div>
     <div>
-        <form action="...">
+        
             Желаемая З/П: <input type="number" name="cash" min="0" max="150000" placeholder="введите значение...">
-        </form>
+        
     </div>
     <div>
-        <form action="...">
+        
             Подходит по критериям:<br>
-            <input type="checkbox" name="engLvl" value="eng" >Знание английского
-            <input type="checkbox" name="zp" value="money"> Оклад
-            <input type="checkbox" name="hands" value="skills"> Навыки
-            <input type="checkbox" name="ourPerson" value="goodBoy"> Сразу видно, что свой человек
-        </form>
+            <input type="checkbox" name="engLvl" value="eng" id="check1"><label for="check1">Знание английского</label>
+            <input type="checkbox" name="zp" value="money" id="check2"> <label for="check2">Оклад</label>
+            <input type="checkbox" name="hands" value="skills" id="check3"> <label for="check3">Навыки</label>
+            <input type="checkbox" name="ourPerson" value="goodBoy" id="check4"> <label for="check4">Сразу видно, что свой человек</label>
+        
     </div>
         <table>
             <caption>Образование, курсы и т.п.</caption>
@@ -88,7 +89,7 @@
                 </tr>
             </tbody>
         </table>
-        <form>
+       
            <p>Примечания или доп. информация</p>
             <textarea rows="15" cols="50"></textarea><br>
             <br>
