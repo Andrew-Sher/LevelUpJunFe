@@ -3,24 +3,25 @@
 <head>
     <title> Вакансия Junior Frot-end Developer</title> 
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style .css">
 </head>
 <body>
     <header>   
             <h1>Вакансия: Junior Front-end Developer</h1>
-            <div  >
-                <div class="photo">
-                    <img src="Photo.jpg"></div> 
-                <h3 class="info"><span>Имя: Шеремеев Андрей Вячеславович</span> <br>
+        </header>
+            <div >
+                <div class="divPhoto">
+                    <img src="Photo.jpg" class="photo" title="Hello:-)"></div> 
+                <h3 class="info"><span class="name">Имя: Шеремеев Андрей Вячеславович</span> <br>
                     <a href="https://github.com/Andrew-Sher/LevelUpJunFe.git">Ссылка на репозиторий в GitHub</a><br>
                 <span>Опыт работы: нет</span></h3>           
             </div>
-    </header>
     <div class="skills">
         <form action="...">
     <div>
-            <label for="intDate">Дата собеседования:</label> 
-                <input type="date" id="intDate" name="interviewDate" value="2018-11-17" min="2018-11-17" max="2025-01-01">
+            <label for="intDate" >Дата собеседования: 
+                <span class="list"><input type="date" id="intDate" name="interviewDate" value="2018-11-17" min="2018-11-17" max="2025-01-01"></span></label>
                  
     </div>
  
@@ -31,10 +32,11 @@
         <input type="radio" name="levelEng" value="perfect" id="perfect"> <label for="perfect">Превосходно</label>
     
     <div>
-        <ul type="square">Ключевые навыки
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            Ключевые навыки
+        <ul>
+            <li><i class="fas fa-code"></i>HTML</li>
+            <li> <i class="fab fa-css3-alt"></i>CSS</li>
+            <li> <i class="fab fa-js"></i>JavaScript</li>
             <li>....</lli>
         </ul>
     </div>
@@ -45,8 +47,8 @@
         
     </div>
     <div>
-        
-            Коммуникабельность: <select>
+         Коммуникабельность: 
+         <select>
                 <option>Доминантный</option>
                 <option>Мобильный</option>
                 <option>Ригидный</option>
@@ -62,12 +64,13 @@
     </div>
     <div>
         
-            Подходит по критериям:<br>
-            <input type="checkbox" name="engLvl" value="eng" id="check1"><label for="check1">Знание английского</label>
-            <input type="checkbox" name="zp" value="money" id="check2"> <label for="check2">Оклад</label>
-            <input type="checkbox" name="hands" value="skills" id="check3"> <label for="check3">Навыки</label>
-            <input type="checkbox" name="ourPerson" value="goodBoy" id="check4"> <label for="check4">Сразу видно, что свой человек</label>
-        
+           <p> Подходит по критериям:</p>
+            <div>
+                <input type="checkbox" name="engLvl" value="eng" id="check1"><label for="check1"><span class="boxeng">Знание английского</span></label><br>
+                <input type="checkbox" name="zp" value="money" id="check2"> <label for="check2" >Оклад</label><br>
+                <input type="checkbox" name="hands" value="skills" id="check3"> <label for="check3" >Навыки</label><br>
+                <input type="checkbox" name="ourPerson" value="goodBoy" id="check4"> <label for="check4">Сразу видно, что свой человек</label>
+            </div>
     </div>
         <table>
             <caption>Образование, курсы и т.п.</caption>
@@ -77,12 +80,12 @@
                 <th>Наименование учебного заведения, курсов</th>
             </thead>
             <tbody>
-                <tr>
+                <tr class="table">
                     <td>1</td>
                     <td>2002-2013</td>
                     <td>Школа №2</td>
                 </tr>
-                <tr>
+                <tr class="table">
                     <td>2</td>
                     <td>2013-2017</td>
                     <td>Университет ИТМО</td>

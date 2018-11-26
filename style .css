@@ -2,20 +2,12 @@
     background-color: grey;
     background: url(images.jpg)
     no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-img {
-    width: 200px;
-
-}
-div {
-
-    margin-top: 15px;
-}
+    background-size: cover;
+    margin-left: 30px; 
+ }
+ header {
+     text-align: center;
+ }
 table{
     border-collapse: collapse;
     margin-top: 15px;
@@ -30,29 +22,67 @@ th {
 }
 tr {
     text-align: center;
-    border-right: 5px solid black
-    
-    
+    border-right: 5px solid black;
+}
+tr.table:hover {
+    background-color: rgb(197, 195, 195);
 }
 td { 
-    padding: 5px;
+    padding: 10px;
     border: 2px solid black;
 }
 h1 {
-
+    display: inline-block;
     font-family: Marker Felt, fantasy;
     font-size: 50px;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    text-align: center;
+    width: 800px;
+    margin-left: px;
+    text-decoration: underline;
 }
-h3 {
-    padding-left: 220px;
-    padding-top: 13px;
+.photo{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 .info{
-    float: left;
+    display: inline-block;
+    vertical-align: top;  
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: Trattatello, fantasy;
+
 }
-.skills {
-    margin-top: 230px;
+.divPhoto {
+    display: inline-block;
 }
-span{
-    font-family: Comic Sans MS, Comic Sans, cursive
+img:hover {
+    border: 3px solid grey;
+    border-style: dotted;
+    padding: 10px;
+    width: 250px;
+    transition: 5s;
 }
+div {
+    margin-top: 15px;
+}
+.list::after {
+    content: '\f073';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 23px;
+    padding-left: 5px;
+    align: center;
+}
+i {
+    padding-right: 5px;
+}
+[type="number"]:hover , [type="text"]:hover , [type="date"]:hover {
+    background-color: lightskyblue;
+}
+input[type="checkbox"]:checked + label {
+    color: green;
+    text-decoration: underline;
+}
+
