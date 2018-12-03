@@ -1,0 +1,86 @@
+
+ .header  {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    border-bottom: 2px solid black;
+    
+}
+i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.circle { 
+    display: inline-block;
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+.createdname {
+    padding-left: 20px;
+}
+.date{
+    padding-left:  30px;
+}
+.letter {
+    display: inline-block;
+    padding-top: 20px;
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px
+}
+.time {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.name {
+    padding-left: 25px;
+} 
+.text {
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+    overflow: auto;
+    border-bottom: 2px solid black
+}
+.block {
+    height: 150px;
+    position: relative;
+    display: flex;   
+    flex-direction: flex-start;
+    align-items: stretch;  
+}
+.block1{
+    background-color:  rgb(159, 158, 248);;
+    padding-left: 10px;
+    width: 150px;
+    position: relative;
+    border-right: 3px solid lightslategray;
+    border-left: 2px solid black;
+}
+.block2 {
+    background-color: rgb(212, 212, 212);
+    width: 650px;
+    padding-top: 10px;
+    position: relative;
+    border-right: 3px solid black;
+}

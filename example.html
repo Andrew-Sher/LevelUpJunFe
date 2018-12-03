@@ -7,32 +7,34 @@
     <link rel="stylesheet" href="style .css">
 </head>
 <body>
-    <header>   
+   <div class="mainContent">
+        <header>   
             <h1>Вакансия: Junior Front-end Developer</h1>
         </header>
             <div >
                 <div class="divPhoto">
                     <img src="Photo.jpg" class="photo" title="Hello:-)"></div> 
-                <h3 class="info"><span class="name">Имя: Шеремеев Андрей Вячеславович</span> <br>
+                <div class="info"> <h3>Имя: <span class="name">Шеремеев Андрей Вячеславович</span> <br>
                     <a href="https://github.com/Andrew-Sher/LevelUpJunFe.git">Ссылка на репозиторий в GitHub</a><br>
-                <span>Опыт работы: нет</span></h3>           
+                 Опыт работы: <span class="name">нет</span></h3>
+                </div>           
             </div>
     <div class="skills">
         <form action="...">
     <div>
-            <label for="intDate" >Дата собеседования: 
+            <label for="intDate"><h2>Дата собеседования:</h2> 
                 <span class="list"><input type="date" id="intDate" name="interviewDate" value="2018-11-17" min="2018-11-17" max="2025-01-01"></span></label>
                  
     </div>
  
-        <p>Уровень английского:</p>
+        <h2>Уровень английского:</h2><br>
         <input type="radio" name="levelEng" value="bad" id="bad"> <label for="bad">Плохо</label> 
         <input type="radio" name="levelEng" value="middle" id="middle"> <label for="middle">Средне</label>
         <input type="radio" name="levelEng" value="good" id="good"> <label for="good">Хорошо </label>
         <input type="radio" name="levelEng" value="perfect" id="perfect"> <label for="perfect">Превосходно</label>
     
     <div>
-            Ключевые навыки
+            <h2>Ключевые навыки</h2>
         <ul>
             <li><i class="fas fa-code"></i>HTML</li>
             <li> <i class="fab fa-css3-alt"></i>CSS</li>
@@ -41,13 +43,11 @@
         </ul>
     </div>
     <div>
-        
             <input type="text" name="skill" placeholder="введите навык..." > 
-            <input type="submit" value="Добавить в список">
-        
+            <input type="button" value="Добавить в список">
     </div>
     <div>
-         Коммуникабельность: 
+        <h2>Коммуникабельность:</h2><br> 
          <select>
                 <option>Доминантный</option>
                 <option>Мобильный</option>
@@ -59,12 +59,13 @@
     </div>
     <div>
         
-            Желаемая З/П: <input type="number" name="cash" min="0" max="150000" placeholder="введите значение...">
+           <h2>Желаемая З/П:</h2><br>
+            <input type="number" name="cash" min="0" max="150000" placeholder="введите значение...">
         
     </div>
     <div>
         
-           <p> Подходит по критериям:</p>
+           <h2>Подходит по критериям:</h2><br>
             <div>
                 <input type="checkbox" name="engLvl" value="eng" id="check1"><label for="check1"><span class="boxeng">Знание английского</span></label><br>
                 <input type="checkbox" name="zp" value="money" id="check2"> <label for="check2" >Оклад</label><br>
@@ -72,8 +73,10 @@
                 <input type="checkbox" name="ourPerson" value="goodBoy" id="check4"> <label for="check4">Сразу видно, что свой человек</label>
             </div>
     </div>
+      
+        <h3>Образование, курсы и т.п.</h3>
+       <div>
         <table>
-            <caption>Образование, курсы и т.п.</caption>
             <thead>
                 <th>#</th>
                 <th>Сроки обучения </th>
@@ -92,12 +95,14 @@
                 </tr>
             </tbody>
         </table>
-       
-           <p>Примечания или доп. информация</p>
+        </div>
+        <div>
+           <h2>Примечания или доп. информация</h2><br>
             <textarea rows="15" cols="50"></textarea><br>
             <br>
             <input type="reset">
+        </div>
         </form>
-</div>
+    </div>    
 </body>
 </htm<l>
