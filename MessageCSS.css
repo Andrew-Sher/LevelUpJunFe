@@ -6,8 +6,7 @@
     width: 800px;
     height: 70px;
     background-color: blueviolet;
-    border-bottom: 2px solid black;
-    
+    border-bottom: 2px solid black;   
 }
 i {
     position: absolute;
@@ -60,7 +59,7 @@ h2 {
     width: 800px;
     height: 600px;
     overflow: auto;
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
 }
 .block {
     height: 150px;
