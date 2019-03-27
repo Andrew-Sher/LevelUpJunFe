@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main-container">
+        <header>
+            <div class="main-blog" onclick="unmenu()">
+                <span class="main-name">Главная  /  Блог</span></div>
+            <h1 class="headline">Блог</h1>
+        </header>
+        <section class="content flex-container">
+            <div class="menu" id="menu">
+                <ul class="list-menu ">
+                    <li> <a href="" class="link">Блог</a></li>
+                    <li><a href="" class="link">Контекстная реклама</a></li>
+                    <li><a href="" class="link">Аналитика</a>
+                        <ul class="analitik-list">
+                            <li>
+                                <a href="" class="yandeks-link"> <i class="fas fa-circle circle"></i>Яндекс метрика</a></li>
+                            <li><a href="" class="google-link">Google Analytics</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="" class="link">Landing page</a></li>
+                    <li><a href="" class="link">Social media marketing(smm)</a></li>
+                    <li><a href="" class="link">Seo-блог</a></li>
+                    <li><a href="" class="link">E-mail маркетинг</a></li>
+                    <li><a href="" class="link">Копирайтинг</a></li>
+                    <li><a href="" class="link">Дизайн</a></li>
+                    <li><a href="" class="link">Юзабилити</a></li>
+                    <li><a href="" class="link">Монстры маркетинга</a></li>
+                    <li><a href="" class="link">Видео уроки</a></li>
+                    <li><a href="" class="link">Практическое обучение</a></li>
+                </ul>
+            </div>
+            <div class="social-networks">
+                <div class="main-picture"></div>
+                <div class="networks"></div>
+            </div>
+            <div class="main-content">
+                    <div class="burger-menu"><i class="fas fa-bars" onclick="menu()"></i></div>
+                <h1 class="headline-content">Тепловые карты и веб-визор в Яндекс.Метрика</h1>
+                <div class="info-content">
+                    <a href="" class="avtor">
+                    <i class="fas fa-user"></i>
+                    Роман Петроченко</a>
+                    <span class="data"> 
+                        <i class="far fa-clock"></i>
+                        10 декабря 2015</span>
+                    <span class="number-of-views">
+                        <i class="far fa-eye"></i>
+                        235</span>
+                    <span class="coments">
+                        <i class="fas fa-comment-alt"></i>
+                        2</span>
+                </div>
+                <div class="marker">
+                    <div class="analitika marker-box"> <i class="fas fa-check check" ></i><span class="marker-text">Аналитика</span></div>
+                    <div class="yandex-metika marker-box" ><i class="fas fa-check check"></i><span  class="marker-text">Яндекс метрика</span></div>
+                    <div class="monster-marketinga marker-box"><i class="fas fa-check check"></i><span  class="marker-text">Монстры маркетинга</span></div>
+                </div>
+                <div class="image"></div>
+                <p class="content-text">
+                    Привет всем ищущим знаний! Сегодня в фокусевнимания будеттакие инструменты интернет-аналитики от 
+                    Яндекс.Метрики, как тепловые карты вебвизор. Все, кто связан с интернет-маркетингом, пользуются
+                    инструментами интернет-аналитикию Основные аналитические системы - это Яндекс Метрика(ЯМ) и 
+                    Google Analytics(GA).Можно пользоваться только GA, в которой есть возможностьзагрузки данных
+                    и из  ЯМ, но вот чего...   
+                </p>
+                <a href="" class="link-read"><div class="next-read"> Читать дальше </div></a>
+                <div class="pages">
+                    <div class="page-first">1</div>
+                    <div class="page">2</div>
+                    <div class="page">3</div>
+                    <div class="page">4</div>
+                    <div class="page">5</div>
+                    <div class="page">6</div>
+                    <div class="page-next">Вперед <i class="fas fa-arrow-right arrow"></i></div>
+                </div>
+            </div>
+        </section>
+    </secyion>
+    <script>
+    function menu() {
+        var a = document.getElementById("menu");
+        if (a.classList.contains('menu')) {
+            a.classList.remove("menu");
+            a.classList.add("menu-position");
+        } else {
+            a.classList.remove("menu-position");
+            a.classList.add("menu");
+        }
+    }
+    function unmenu () {
+        var b = document.getElementById("menu");
+        console.log(b);
+        if (b.classList.contains('menu-position')) {
+        b.classList.remove("menu-position");
+        b.classList.add("menu");
+        } else {}
+    }
+</script>
+
+</body>
+</html>
